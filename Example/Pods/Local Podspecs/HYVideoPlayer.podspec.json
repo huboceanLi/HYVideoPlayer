@@ -1,0 +1,22 @@
+{
+  "name": "HYVideoPlayer",
+  "version": "0.1.0",
+  "summary": "A short description of HYVideoPlayer.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/li437277219@gmail.com/HYVideoPlayer",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "li437277219@gmail.com": "“li437277219@gmail.com”"
+  },
+  "source": {
+    "git": "https://github.com/li437277219@gmail.com/HYVideoPlayer.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "HYVideoPlayer/Classes/**/*"
+}
