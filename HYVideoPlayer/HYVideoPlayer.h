@@ -15,4 +15,5 @@ FOUNDATION_EXPORT const unsigned char HYVideoPlayerVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <HYVideoPlayer/PublicHeader.h>
 
+#import <HYMedia/HYVideoPlayView.h>
 

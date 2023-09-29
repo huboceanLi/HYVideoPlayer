@@ -1,0 +1,6 @@
+framework module Pods_HYVideoPlayer {
+  umbrella header "Pods-HYVideoPlayer-umbrella.h"
+
+  export *
+  module * { export * }
+}
