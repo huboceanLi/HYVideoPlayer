@@ -1698,19 +1698,19 @@
 		83F63FB52AC27EFD006416B6 /* HLS */ = {
 			isa = PBXGroup;
 			children = (
-				83F63FB62AC27EFD006416B6 /* HLSAssetParser.h */,
-				83F63FB72AC27EFD006416B6 /* HLSAssetContentProvider.m */,
-				83F63FB82AC27EFD006416B6 /* HLSAssetTsContent.m */,
-				83F63FB92AC27EFD006416B6 /* HLSAssetContentReader.m */,
-				83F63FBA2AC27EFD006416B6 /* HLSAssetReader.h */,
 				83F63FBB2AC27EFD006416B6 /* HLSAsset.h */,
-				83F63FBC2AC27EFD006416B6 /* HLSAssetDefines.h */,
-				83F63FBD2AC27EFD006416B6 /* HLSAssetParser.m */,
-				83F63FBE2AC27EFD006416B6 /* HLSAssetContentProvider.h */,
 				83F63FBF2AC27EFD006416B6 /* HLSAsset.m */,
+				83F63FBE2AC27EFD006416B6 /* HLSAssetContentProvider.h */,
+				83F63FB72AC27EFD006416B6 /* HLSAssetContentProvider.m */,
 				83F63FC02AC27EFD006416B6 /* HLSAssetContentReader.h */,
+				83F63FB92AC27EFD006416B6 /* HLSAssetContentReader.m */,
+				83F63FBC2AC27EFD006416B6 /* HLSAssetDefines.h */,
+				83F63FB62AC27EFD006416B6 /* HLSAssetParser.h */,
+				83F63FBD2AC27EFD006416B6 /* HLSAssetParser.m */,
+				83F63FBA2AC27EFD006416B6 /* HLSAssetReader.h */,
 				83F63FC12AC27EFD006416B6 /* HLSAssetReader.m */,
 				83F63FC22AC27EFD006416B6 /* HLSAssetTsContent.h */,
+				83F63FB82AC27EFD006416B6 /* HLSAssetTsContent.m */,
 			);
 			path = HLS;
 			sourceTree = "<group>";

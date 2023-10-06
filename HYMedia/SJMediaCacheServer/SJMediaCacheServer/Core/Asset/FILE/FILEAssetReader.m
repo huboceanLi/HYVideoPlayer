@@ -216,7 +216,11 @@
 #pragma mark -
 
 - (void)_prepare {
-    NSUInteger totalLength = mAsset.totalLength;
+    NSUInteger totalLength = 0;
+    if ([mAsset isKindOfClass:[FILEAsset class]]) {
+        totalLength = mAsset.totalLength;
+    }
+//    NSUInteger totalLength = mAsset.totalLength;
     if ( totalLength == 0 ) {
         // create single sub reader to load asset total length
         NSURL *URL = mRequest.URL;
