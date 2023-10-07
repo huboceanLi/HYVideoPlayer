@@ -71,7 +71,7 @@
 - (void)timeRecordCurrent {
     
     NSInteger currentTime = self.player.currentTime;
-
+    NSLog(@"***timeRecordCurrent***");
     if ([self.delegate respondsToSelector:@selector(currentTime:)]) {
         [self.delegate currentTime:currentTime];
     }
@@ -94,8 +94,13 @@
 
 - (void)removeView
 {
+    [self pause];
     [self.timer invalidate];
+    self.player = nil;
     self.timer = nil;
+    [self removeFromSuperview];
+    NSLog(@"***removeView***");
+
 }
 
 -(void)pauseTimer
@@ -111,11 +116,13 @@
 - (void)pause
 {
     [self.player pause];
+    [self pauseTimer];
 }
 
 - (void)startPlay
 {
     [self.player play];
+    [self continueTimer];
 }
 
 - (NSTimeInterval)currentPosition {
